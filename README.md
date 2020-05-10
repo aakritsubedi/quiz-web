@@ -1,10 +1,33 @@
 # quiz-web 
 - VueJs Application
 
-## Project setup
-- clone the repositories  
-    - git clone git@github.com:aakritsubedi/learning-vuejs.git
-- `yarn` || `npm` to install the packages required
-- `yarn serve` to run the web application 
-    - your App running at:
-      Local: http://localhost:8080/
+## Project Setup 
+- clone the repository
+
+```bash
+$ git clone git@github.com:aakritsubedi/quiz-web.git
+```
+
+## To install all the required packages
+
+```bash
+$ npm install
+```
+OR
+
+```bash
+$ yarn
+```
+
+## To run the server
+
+```bash
+$ npm serve
+```
+OR
+
+```bash
+$ yarn serve
+```
+
+## App will be running at: Local: http://localhost:8080/
