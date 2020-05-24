@@ -1,28 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <quiz-main v-bind:points="points" v-bind:message="message"></quiz-main>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+// import HelloWorld from './components/HelloWorld.vue'
+import quizMain from './components/quizMain.vue';
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    'quiz-main': quizMain
+},
+  data(){
+    return{
+      points:20,
+      message:"This is the Section For Messages"
+    }
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+/*  */
+.bg-nav{
+    background: #DA4453;
+    background: -webkit-linear-gradient(to right,#89216B, #DA4453);
+    background: linear-gradient(to right,#89216B, #DA4453);
 }
 </style>
