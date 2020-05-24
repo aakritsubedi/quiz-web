@@ -21,7 +21,6 @@ export default {
 </script>
 
 <style>
-/*  */
 .bg-nav{
     background: #DA4453;
     background: -webkit-linear-gradient(to right,#89216B, #DA4453);
