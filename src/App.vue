@@ -7,6 +7,7 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import quizMain from './components/quizMain.vue';
+
 export default {
   components: {
     'quiz-main': quizMain
